@@ -1,0 +1,2 @@
+var hamburger=document.getElementById("hamburger"),sidebar=document.getElementById("sidebar"),closeNav=document.getElementById("close"),isOpen=!1;hamburger.onclick=function(){isOpen?sidebar.style.left="-100%":(sidebar.style.left="0",document.body.style.overflow="hidden"),isOpen=!isOpen};var isClosed=!1;closeNav.onclick=function(){isClosed?sidebar.style.left="0":(sidebar.style.left="-100%",document.body.style.overflow="auto"),isClosed=!isClosed};
+//# sourceMappingURL=layout_landing-page.5c4cbdb1.js.map
